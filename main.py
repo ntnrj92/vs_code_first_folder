@@ -24,7 +24,7 @@ def main():
         choice = input("Choose an option (1-5): ")
 
         if choice == "5":
-            print("Goodbye! Thank you for using the calculator. FINALLL")
+            print("Goodbye! I am on GitHub")
             break
 
         a = get_number("Enter the first number: ")
