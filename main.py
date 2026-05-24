@@ -24,7 +24,7 @@ def main():
         choice = input("Choose an option (1-5): ")
 
         if choice == "5":
-            print("Goodbye! Mate, We meet again")
+            print("Goodbye! Mate, We meet again and yet again")
             break
 
         a = get_number("Enter the first number: ")
