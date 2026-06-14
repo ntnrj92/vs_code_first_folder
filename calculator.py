@@ -1,4 +1,6 @@
 """Simple calculator functions for demonstration."""
+import math
+
 
 def add(a, b):
     """Return the sum of a and b."""
@@ -23,3 +25,18 @@ def divide(a, b):
     if b == 0:
         return None
     return a / b
+
+
+def sqrt(x):
+    """Return the square root of x.
+
+    Returns None for negative inputs to avoid complex results.
+    """
+    if x < 0:
+        return None
+    return math.sqrt(x)
+
+
+def cbrt(x):
+    """Return the real cube root of x (handles negative inputs)."""
+    return math.copysign(abs(x) ** (1.0 / 3.0), x)
