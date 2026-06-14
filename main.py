@@ -1,4 +1,4 @@
-from calculator import add, subtract, multiply, divide, sqrt, cbrt
+ from calculator import add, subtract, multiply, divide, sqrt, cbrt
 
 
 def show_menu():
@@ -9,7 +9,7 @@ def show_menu():
     print("4. Divide")
     print("5. Square root")
     print("6. Cube root")
-    print("7. I want to Exit")
+    print("7. Exit in Branch")
 
 
 def get_number(prompt):
