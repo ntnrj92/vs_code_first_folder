@@ -9,7 +9,7 @@ def show_menu():
     print("4. Divide")
     print("5. Square root")
     print("6. Cube root")
-    print("7. Exit")
+    print("7. I want to Exit")
 
 
 def get_number(prompt):
